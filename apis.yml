@@ -1,7 +1,27 @@
 aid: blindmate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blindmate.png
 name: Blindmate
-description: Blindmate is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blindmate is a friend-based dating app that inverts the swipe model: instead of
+  writing their own profile, a single person's friends answer questions about them,
+  and matches are made through character-first "Blindchats" that surface compatibility
+  before appearance. Founded in Germany and available on iOS and Android in German,
+  English, and Spanish, the app reports over one million users and positions itself
+  around trust, reduced harassment, data privacy, and green-energy infrastructure.
+  Blindmate is a Speedinvest portfolio company; it is a consumer mobile product and
+  publishes no public developer API, so this profile captures its web, security, and
+  policy surface rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/blindmate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dating
+- Social
+- Matchmaking
+- Mobile Apps
+- Consumer
+- Privacy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://blindmate.app
+- type: Blog
+  url: https://medium.com/@jasmine_blindmate
+- type: PrivacyPolicy
+  url: https://blindmate.de/app-privacy-en
+- type: TermsOfService
+  url: https://blindmate.de/app-agb-en
+- type: Support
+  url: mailto:team@blindmate.de
+- type: SignUp
+  url: https://apps.apple.com/de/app/blindmate-friends-dating/id1547219764
+- type: Security
+  url: https://blindmate.de/hacker-policies/
+- type: VulnerabilityDisclosure
+  url: security/blindmate-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/blindmate-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

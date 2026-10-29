@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blindmate is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Blindmate is a friend-based dating app that inverts the swipe model: instead of writing their own profile, a single person's friends answer questions about them, and matches are made through character-first "Blindchats" that surface compatibility before appearance. Founded in Germany and available on iOS and Android in German, English, and Spanish, the app reports over one million users and positions itself around trust, reduced harassment, data privacy, and green-energy infrastructure. Blindmate is a Speedinvest portfolio company; it is a consumer mobile product and publishes no public developer API, so this profile captures its web, security, and policy surface rather than API artifacts.
 
-Backed by: speedinvest — https://blindmate.app
+**Areas:** Company · Dating · Social · Matchmaking · Mobile App · Consumer · Privacy
+
+## Blindmate on APIs.io
+
+Everything profiled for Blindmate is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blindmate/](https://apis.io/providers/blindmate/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blindmate Domain Security](https://apis.io/security/blindmate/blindmate-domain-security/)
+- [Blindmate Vulnerability Disclosure](https://apis.io/security/blindmate/blindmate-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blindmate.app)
+- [Sign up](https://apps.apple.com/de/app/blindmate-friends-dating/id1547219764)
+- [Blog](https://medium.com/@jasmine_blindmate)
+- [Security](https://blindmate.de/hacker-policies/)
+- [Terms of service](https://blindmate.de/app-agb-en)
+- [Privacy policy](https://blindmate.de/app-privacy-en)
+
+## API Evangelist rating
+
+**Kin Score 15.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blindmate/](https://apis.io/providers/blindmate/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blindmate: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blindmate/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
